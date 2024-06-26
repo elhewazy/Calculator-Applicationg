@@ -1,0 +1,23 @@
+
+<div>
+    <input [(ngModel)] = "calc"  placeholder="enter the expression">
+    <button value="1"   (click)="setEq('1')">1</button>
+    <button value="2"   (click)="setEq('2')">2</button>
+    <button value="3"   (click)="setEq('3')">3</button>
+    <button value="4"   (click)="setEq('4')">4</button>
+    <button value="5"   (click)="setEq('5')">5</button>
+    <button value="6"   (click)="setEq('6')">6</button>
+    <button value="7"   (click)="setEq('7')">7</button>
+    <button value="8"   (click)="setEq('8')">8</button>
+    <button value="8"   (click)="setEq('9')">9</button>
+    <button value="0"   (click)="setEq('0')">0</button>
+    <button value="+"  (click)="setEq('+')" >+</button>
+    <button value="-"  (click)="setEq('-')" >-</button>
+    <button value="/"   (click)="setEq('/')">/</button>
+    <button value="*"   (click)="setEq('*')">*</button>
+    <button value="="   (click)="getResult()">=</button>
+    <button    (click)="reset()">cleare</button>
+    <p>result  = {{result}}</p>
+</div>
+
+
